@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:darkcyan;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 45px;
+  padding: 10px;
+  width: 100%;
+  outline-style: outset;
+  outline-width: 4px;
+  max-width: 400px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  -webkit-animation:steps() ;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* At the end of the animation, set opacity to 1 to reveal the app */
+  }
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+
+
